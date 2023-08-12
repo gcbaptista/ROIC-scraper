@@ -11,7 +11,7 @@ BALANCE_SHEET_XPATH = "/html/body/div[1]/div[2]/div[2]/div[3]/div/div"
 CASH_FLOW_XPATH = "/html/body/div[1]/div[2]/div[2]/div[4]/div/div"
 STATEMENT_XPATHS = {
     "income": INCOME_STATEMENT_XPATH,
-    "balance": BALANCE_SHEET_XPATH,
+    "balance_sheet": BALANCE_SHEET_XPATH,
     "cash_flow": CASH_FLOW_XPATH,
 }
 
