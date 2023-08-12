@@ -2,9 +2,18 @@ import os
 
 import pandas as pd
 from selenium import webdriver
-from selenium.common import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
+
+# Constants for XPath expressions
+INCOME_STATEMENT_XPATH = "/html/body/div[1]/div[2]/div[2]/div[2]/div/div"
+BALANCE_SHEET_XPATH = "/html/body/div[1]/div[2]/div[2]/div[3]/div/div"
+CASH_FLOW_XPATH = "/html/body/div[1]/div[2]/div[2]/div[4]/div/div"
+STATEMENT_XPATHS = {
+    "income": INCOME_STATEMENT_XPATH,
+    "balance": BALANCE_SHEET_XPATH,
+    "cash_flow": CASH_FLOW_XPATH,
+}
 
 
 def get_children_elements(element: WebElement):
@@ -14,7 +23,6 @@ def get_children_elements(element: WebElement):
 def get_years_from_table_header(table_header: WebElement):
     years = []
     for column in get_children_elements(table_header):
-        # skip the first column
         if column == get_children_elements(table_header)[0]:
             continue
 
@@ -27,14 +35,13 @@ def get_years_from_table_header(table_header: WebElement):
     return years
 
 
-def parse_income_statement(driver: webdriver.Chrome):
+def parse_statement(driver, statement_xpath):
     years = []
     metrics_names = []
     data = []
 
-    income_statement_table = driver.find_element(By.XPATH, "/html/body/div[1]/div[2]/div[2]/div[2]/div/div")
-
-    (table_header, table_rows_frame) = get_children_elements(income_statement_table)
+    statement_table = driver.find_element(By.XPATH, statement_xpath)
+    (table_header, table_rows_frame) = get_children_elements(statement_table)
 
     years = get_years_from_table_header(table_header)
 
@@ -47,14 +54,12 @@ def parse_income_statement(driver: webdriver.Chrome):
 
         metrics_names.append(metric_name)
 
-        # iterate over columns by skip the first
         for column in columns[1:]:
             metric_value = column.text.replace(",", "")
 
             if metric_value == "- -":
                 metric_value = "0"
 
-            # If metric value is not a number nor it is '12,345' then skip it.
             if metric_value == '12345' or metric_value == '':
                 continue
 
@@ -63,38 +68,41 @@ def parse_income_statement(driver: webdriver.Chrome):
         data.append(metrics_values)
 
     dataframe = pd.DataFrame(data=data, columns=years, index=metrics_names)
-
     return dataframe
 
 
-def scrape_financial_data(ticker, period):
-    """Parses financial data from roic.ai for the given ticker and period.
+def scrape_financial_data(tickers, period):
+    for ticker in tickers:
+        print(f"Scraping {ticker} financial data...")
+        directory = f"output/{ticker}"
+        # If directory already exists, skip; else, create it
+        if os.path.exists(directory):
+            print(f"Directory {directory} already exists, skipping...")
+            continue
 
-  Args:
-    ticker: The stock ticker symbol.
-    period: The financial period, such as "annual" or "quarterly".
+        driver = webdriver.Chrome()
 
-  Returns:
-    A Pandas DataFrame containing the financial data.
-  """
+        url = f"https://roic.ai/financials/{ticker}?fs={period}"
+        driver.get(url)
 
-    driver = webdriver.Chrome()
-    url = f"https://roic.ai/financials/{ticker}?fs={period}"
-    driver.get(url)
+        try:
+            for statement_type, statement_xpath in STATEMENT_XPATHS.items():
+                statement_df = parse_statement(driver, statement_xpath)
+                os.makedirs(directory, exist_ok=True)
+                statement_df.to_csv(f"{directory}/{statement_type}_statement.csv")
+        except Exception as e:
+            print(f"Error scraping {ticker}: {e}")
+        finally:
+            driver.close()
 
-    # Parse the income statement.
-    dataframe = parse_income_statement(driver)
 
-    directory = f"output/{ticker}"
-
-    if not os.path.exists(directory):
-        os.makedirs(directory)
-
-    dataframe.to_csv(f"{directory}/income_statement.csv")
+def get_sp500_tickers():
+    # fetch s&p 500 tickers from Wikipedia
+    url = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+    sp500_df = pd.read_html(url)[0]
+    return sp500_df["Symbol"].tolist()
 
 
 if __name__ == "__main__":
-    ticker = "AAPL"
-
-    # Parse the financial data for Apple for the annual period.
-    scrape_financial_data(ticker, "annual")
+    symbols = get_sp500_tickers()
+    scrape_financial_data(symbols, "annual")

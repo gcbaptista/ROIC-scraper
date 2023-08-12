@@ -1,0 +1,82 @@
+,2014,2015,2016,2017,2018,2019,2020,2021,2022
+Total Current Assets,0,752,780,858,930,962,2303,1782,1660
+"+ Cash, Cash Equivalents & STI",0,31,36,57,56,12,1364,784,525
++ Cash & Cash Equivalents,0,31,36,57,56,12,1364,784,525
++ ST Investments,0,0,0,0,0,0,0,0,0
++ Accounts & Notes Receiv,0,171,187,185,226,340,342,367,447
+"+ Accounts Receivable, Net",0,171,187,185,226,340,342,367,447
+"+ Notes Receivable, Net",0,0,0,0,0,0,0,0,0
+"+ Loans Receivable, Net",0,0,0,0,0,0,0,0,0
+"+ Other Receivable, Net",0,0,0,0,0,0,0,0,0
++ Inventories,0,488,499,525,550,498,487,514,574
++ Raw Materials,0,110,115,115,119,127,148,136,148
++ Work In Process,0,0,0,0,0,0,0,0,0
++ Finished Goods,0,378,384,410,431,371,339,378,427
++ Inventory Adjustments,0,0,0,0,0,0,0,0,0
++ Other Inventory,0,0,0,0,0,0,0,0,0
++ Other ST Assets,0,62,58,91,99,111,110,118,113
++ Prepaid Expenses,0,0,0,0,0,0,0,0,0
++ ST Derivative & Hedging Assets,0,0,0,0,0,0,0,0,0
++ ST Assets Held-for-Sale,0,0,0,0,0,0,0,0,0
++ ST Deferred Tax Assets,0,0,0,0,0,0,0,0,0
++ Misc ST Assets,0,0,0,0,0,0,0,0,0
+Total Noncurrent Assets,0,1304,1378,1627,1822,2087,2360,2428,2480
+"+ Property, Plant & Equip, Net",0,1001,1043,1271,1421,1598,1702,99,-4
+"+ Property, Plant & Equip",0,1948,2034,2350,2581,2875,3110,1666,1698
+- Accumulated Depreciation,0,947,991,1078,1161,1277,1408,1567,1702
++ LT Investments & Receivables,0,0,155,179,220,225,250,310,257
++ LT Investments,0,0,155,179,220,225,250,310,257
++ LT Receivables,0,0,0,0,0,0,0,0,0
++ Other LT Assets,0,303,180,178,182,264,408,2019,2227
++ Total Intangible Assets,0,177,174,170,171,244,342,371,352
++ Goodwill,0,135,134,133,135,206,304,335,318
++ Other Intangible Assets,0,42,40,37,35,38,38,37,34
++ LT Deferred Tax Assets,0,0,0,0,0,0,0,0,0
++ LT Derivative & Hedging Assets,0,0,0,0,0,0,0,0,0
++ Misc LT Assets,0,126,7,7,11,21,65,1648,1875
+Total Assets,0,2056,2158,2486,2753,3048,4662,4209,4140
++ Payables & Accruals,0,347,371,496,470,506,375,586,667
++ Accounts Payable,0,236,238,295,254,289,244,359,403
++ Accrued Taxes,0,0,12,15,13,9,11,12,10
++ Interest & Dividends Payable,0,0,0,0,0,0,0,0,0
++ Other Payables & Accruals,0,111,121,186,203,208,119,215,254
++ ST Debt,0,43,38,60,48,46,576,32,32
++ ST Borrowings,0,43,38,60,48,46,548,32,32
++ ST Finance Leases,0,0,0,0,0,0,28,29,22
++ Other ST Liabilities,0,0,0,0,0,0,75,0,0
++ Deferred Revenue,0,0,0,0,0,0,0,0,0
++ Derivatives & Hedging,0,0,0,0,0,0,0,0,0
++ Deferred Tax Liabilities,0,0,0,0,0,0,0,0,0
++ Misc ST Liabilities,0,0,0,0,0,0,75,0,0
+Total Current Liabilities,0,389,410,555,519,553,1025,618,699
++ LT Debt,0,87,105,2365,2337,2280,2993,2705,2696
++ LT Borrowings,0,87,105,2365,2337,2280,2993,2705,2696
++ LT Finance Leases,0,0,0,0,0,0,0,0,0
++ Other LT Liabilities,0,223,244,212,232,220,405,405,384
++ Accrued Liabilities,0,0,144,91,92,126,153,160,173
++ Pension Liabilities,0,0,0,0,0,0,0,0,0
++ Deferred Revenue,0,0,0,0,0,0,0,0,0
++ Deferred Tax Liabilities,0,0,0,0,0,0,0,0,0
++ Derivatives & Hedging,0,0,0,0,0,0,0,0,0
++ Misc LT Liabilities,0,223,100,122,140,94,252,246,212
+Total Noncurrent Liabilities,0,309,348,2577,2569,2500,3397,3111,3080
+Total Liabilities,0,698,758,3133,3087,3053,4422,3729,3779
++ Preferred Equity and Hybrid Capital,0,0,0,0,0,0,0,0,0
++ Share Capital & APIC,0,0,0,-759,-754,-744,-716,-689,-665
++ Common Stock,0,0,0,146,146,147,147,148,148
++ Additional Paid in Capital,0,0,0,-905,-900,-890,-863,-837,-813
+- Treasury Stock,0,0,0,0,3,39,68,104,264
++ Retained Earnings,0,0,0,121,426,804,1065,1245,1306
++ Other Equity,0,-5,-9,-9,-4,-25,-40,30,-16
+Equity Before Minority Interest,0,1358,1401,-647,-335,-5,240,481,361
++ Minority/Non Controlling Interest,0,0,0,0,0,0,0,0,0
+Total Equity,0,1358,1401,-647,-335,-5,240,481,361
+Total Liabilities & Equity,0,2056,2158,2486,2753,3048,4662,4209,4140
+Shares Outstanding,146,146,146,146,146,146,146,146,144
+Capital Leases - Total,0,0,0,0,0,0,28,29,22
+Net Debt,0,99,107,2368,2329,2314,2176,1954,2203
+Net Debt to Equity,0,7.26,7.61,-365.85,-695.76,-50313.04,906.71,406.55,611.10
+Tangible Common Equity Ratio,0,63,62,-35,-20,-9,-2,3,0
+Current Ratio,0,1.93,1.90,1.55,1.79,1.74,2.25,2.88,2.37
+Cash Conversion Cycle,0,33.57,62.25,59.47,59.97,60.25,61.13,61.10,55.24
+Number of Employees,0,0,6400,6500,7200,7600,7700,7800,8000
