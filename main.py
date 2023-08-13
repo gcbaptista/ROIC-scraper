@@ -4,6 +4,7 @@ import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
+import undetected_chromedriver as uc
 
 # Constants for XPath expressions
 INCOME_STATEMENT_XPATH = "/html/body/div[1]/div[2]/div[2]/div[2]/div/div"
@@ -67,11 +68,21 @@ def parse_statement(driver, statement_xpath):
 
         data.append(metrics_values)
 
+    # Trim all data lists to only containing the last 10 years
+    data = [data[i][-10:] for i in range(len(data))]
+
+    # Same for years
+    years = years[-10:]
+
     dataframe = pd.DataFrame(data=data, columns=years, index=metrics_names)
     return dataframe
 
 
 def scrape_financial_data(tickers, period):
+    options = webdriver.ChromeOptions()
+    options.add_argument("start-maximized")
+    driver = uc.Chrome(options=options)
+
     for ticker in tickers:
         print(f"Scraping {ticker} financial data...")
         directory = f"output/{ticker}"
@@ -80,7 +91,7 @@ def scrape_financial_data(tickers, period):
             print(f"Directory {directory} already exists, skipping...")
             continue
 
-        driver = webdriver.Chrome()
+        # driver = webdriver.Chrome()
 
         url = f"https://roic.ai/financials/{ticker}?fs={period}"
         driver.get(url)
@@ -93,7 +104,8 @@ def scrape_financial_data(tickers, period):
         except Exception as e:
             print(f"Error scraping {ticker}: {e}")
         finally:
-            driver.close()
+            # driver.close()
+            pass
 
 
 def get_sp500_tickers():
