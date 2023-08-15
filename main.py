@@ -145,7 +145,8 @@ def create_chrome_driver():
 
 if __name__ == "__main__":
     driver = create_chrome_driver()
-    symbols = get_sp500_tickers()
+    # symbols = get_sp500_tickers()
+    symbols = ["UNH", "VFC", "WEC", "XEL",]
     period = "annual"
 
     scrape_data(driver, symbols, period)
