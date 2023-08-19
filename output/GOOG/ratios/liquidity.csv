@@ -1,15 +1,15 @@
-""
-Cash Ratio
-Current Ratio
-Quick Ratio
-CFO/Avg Current Liab
-Common Equity/Total Assets
-Long-Term Debt/Equity (%)
-Long-Term Debt/Capital (%)
-Long-Term Debt/Total Assets (%)
-Total Debt/Equity (%)
-Total Debt/Capital (%)
-Total Debt/Total Assets (%)
-CFO/Total Liabilities
-CFO/CapEx
-Altman's Z-Score
+,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022
+Cash Ratio,3.69,3.83,3.78,5.15,4.21,3.15,2.65,2.41,2.17,1.64
+Current Ratio,4.58,4.80,4.67,6.29,5.14,3.92,3.37,3.07,2.93,2.38
+Quick Ratio,4.28,4.52,4.50,6.00,4.99,3.76,3.25,2.96,2.80,2.22
+CFO/Avg Current Liab,1.23,1.37,1.44,2.00,1.81,1.63,1.37,1.28,1.51,1.37
+Common Equity/Total Assets,78.60,79.67,82.87,84.44,77.80,77.29,73.46,69.43,70.49,72.21
+Long-Term Debt/Equity (%),2.56,3.09,1.66,2.83,2.60,2.26,7.33,11.27,10.41,10.62
+Long-Term Debt/Capital (%),2.42,2.94,1.57,2.71,2.52,2.18,6.75,10.08,9.30,9.27
+Long-Term Debt/Total Assets (%),2.02,2.46,1.35,2.35,2.01,1.72,5.35,7.85,7.29,7.45
+Total Debt/Equity (%),6.01,5.01,4.34,2.83,2.60,2.26,7.93,12.03,11.28,11.59
+Total Debt/Capital (%),5.67,4.77,4.10,2.71,2.52,2.18,7.30,10.77,10.08,10.11
+Total Debt/Total Assets (%),4.73,3.99,3.54,2.35,2.01,1.72,5.79,8.38,7.90,8.13
+CFO/Total Liabilities,79.03,84.02,95.92,126.62,82.81,86.96,73.21,67.09,85.15,83.85
+CFO/CapEx,2.12,1.41,2.56,3.22,2.75,1.80,2.09,2.92,3.72,2.91
+Altman's Z-Score,12.25,10.95,14.74,14.41,12.53,10.51,9.89,9.56,13.58,8.98

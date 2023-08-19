@@ -91,6 +91,9 @@ def get_remaining_financial_types(ticker, financial_types):
 
 def scrape_data(driver, tickers, period):
     financial_types = ["financials", "ratios"]
+    mirrored_tickers = {
+        "GOOGL": "GOOG",
+    }
 
     for ticker in tickers:
         skip_non_us_companies = False
@@ -124,10 +127,19 @@ def scrape_data(driver, tickers, period):
             try:
                 for element_type, element_xpath in xpath_dict.items():
                     statement_df = parse_table(driver, element_xpath)
-                    os.makedirs(directory, exist_ok=True)
-                    statement_df.to_csv(f"{directory}/{element_type}.csv")
+                    write_to_csv(directory, element_type, statement_df, ticker, mirrored_tickers)
             except Exception as e:
                 print(f"Error scraping {ticker}: {e}")
+
+
+def write_to_csv(directory, element_type, statement_df, ticker, mirrored_tickers):
+    os.makedirs(directory, exist_ok=True)
+    statement_df.to_csv(f"{directory}/{element_type}.csv")
+
+    if ticker in mirrored_tickers:
+        directory = directory.replace(ticker, mirrored_tickers[ticker])
+        os.makedirs(directory, exist_ok=True)
+        statement_df.to_csv(f"{directory}/{element_type}.csv")
 
 
 def get_sp500_tickers():
@@ -145,8 +157,7 @@ def create_chrome_driver():
 
 if __name__ == "__main__":
     driver = create_chrome_driver()
-    # symbols = get_sp500_tickers()
-    symbols = ["UNH", "VFC", "WEC", "XEL",]
+    symbols = get_sp500_tickers()
     period = "annual"
 
     scrape_data(driver, symbols, period)

@@ -1,15 +1,15 @@
-""
-Return on Common Equity (%)
-Return on Assets (%)
-Return on Capital (%)
-Return on Invested Capital (%)
-Gross Margin (%)
-EBITDA Margin (%)
-Operating Margin (%)
-Incremental Operating Margin (%)
-Pretax Margin (%)
-Profit Margin (%)
-Net Income to Common Margin (%)
-Effective Tax Rate (%)
-Dvd Payout Ratio (%)
-Sustainable Growth Rate (%)
+,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022
+Return on Common Equity (%),16.32,15.07,14.42,14.78,8.59,18.44,17.95,18.97,32.00,23.20
+Return on Assets (%),12.62,11.93,11.74,12.37,6.94,14.29,13.50,13.52,22.40,16.55
+Return on Capital (%),15.36,14.37,13.86,14.35,8.40,18.06,17.10,17.28,28.78,20.96
+Return on Invested Capital (%),13.94,13.21,13.70,14.24,8.97,16.37,15.65,14.79,24.87,22.26
+Gross Margin (%),56.78,61.07,62.44,61.08,58.88,56.48,55.58,53.58,56.94,55.38
+EBITDA Margin (%),29.93,32.54,32.57,33.08,32.29,29.55,29.48,30.09,35.38,32.09
+Operating Margin (%),23.34,24.99,25.82,26.27,26.05,22.94,22.20,22.59,30.55,26.46
+Incremental Operating Margin (%),12.50,40.97,31.86,28.50,25.10,9.67,18.12,25.62,49.91,-15.37
+Pretax Margin (%),24.23,26.15,26.21,26.75,24.53,25.52,24.48,26.34,35.22,25.22
+Profit Margin (%),21.60,21.88,21.80,21.58,11.42,22.46,21.22,22.06,29.51,21.20
+Net Income to Common Margin (%),21.60,21.88,21.80,21.58,11.42,22.46,21.22,22.06,29.51,21.20
+Effective Tax Rate (%),15.74,19.30,16.81,19.35,53.44,11.96,13.33,16.25,16.20,15.92
+Dvd Payout Ratio (%),0,0,0,0,0,0,0,0,0,0
+Sustainable Growth Rate (%),16.32,15.07,14.42,14.78,8.59,18.44,17.95,18.97,32.00,23.20
