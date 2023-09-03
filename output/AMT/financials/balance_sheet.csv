@@ -1,82 +1,82 @@
-,2019,2020,2021,2022
-Total Current Assets,2554,2906,3729,3622
-"+ Cash, Cash Equivalents & STI",1501,1746,1950,2028
-+ Cash & Cash Equivalents,1501,1746,1950,2028
-+ ST Investments,0,0,0,0
-+ Accounts & Notes Receiv,462,512,729,758
-"+ Accounts Receivable, Net",462,512,729,758
-"+ Notes Receivable, Net",0,0,0,0
-"+ Loans Receivable, Net",0,0,0,0
-"+ Other Receivable, Net",0,0,0,0
-+ Inventories,0,0,0,0
-+ Raw Materials,0,0,0,0
-+ Work In Process,0,0,0,0
-+ Finished Goods,0,0,0,0
-+ Inventory Adjustments,0,0,0,0
-+ Other Inventory,0,0,0,0
-+ Other ST Assets,590,648,1051,836
-+ Prepaid Expenses,0,0,0,0
-+ ST Derivative & Hedging Assets,0,0,0,0
-+ ST Assets Held-for-Sale,0,0,0,0
-+ ST Deferred Tax Assets,0,0,0,0
-+ Misc ST Assets,0,0,0,0
-Total Noncurrent Assets,40248,44328,66159,63572
-"+ Property, Plant & Equip, Net",12201,12734,20390,19038
-"+ Property, Plant & Equip",19442,20598,29009,28917
-- Accumulated Depreciation,7241,7864,8620,9879
-+ LT Investments & Receivables,0,0,0,0
-+ LT Investments,0,0,0,0
-+ LT Receivables,0,0,0,0
-+ Other LT Assets,28047,31594,45769,44534
-+ Total Intangible Assets,18497,21123,34077,30940
-+ Goodwill,6178,7283,13350,12957
-+ Other Intangible Assets,12318,13840,20727,17983
-+ LT Deferred Tax Assets,0,0,0,0
-+ LT Derivative & Hedging Assets,0,0,0,0
-+ Misc LT Assets,9551,10471,11692,13594
-Total Assets,42802,47234,69888,67195
-+ Payables & Accruals,1771,1935,2582,2569
-+ Accounts Payable,148,139,272,219
-+ Accrued Taxes,253,240,340,300
-+ Interest & Dividends Payable,0,0,0,0
-+ Other Payables & Accruals,1369,1556,1970,2051
-+ ST Debt,3423,1330,5281,5303
-+ ST Borrowings,2928,790,4569,4514
-+ ST Finance Leases,495,540,713,789
-+ Other ST Liabilities,294,391,1204,440
-+ Deferred Revenue,294,391,1204,440
-+ Derivatives & Hedging,0,0,0,0
-+ Deferred Tax Liabilities,0,0,0,0
-+ Misc ST Liabilities,0,0,0,0
-Total Current Liabilities,5488,3656,9067,8312
-+ LT Debt,27638,35382,46727,41748
-+ LT Borrowings,21127,28498,38686,34156
-+ LT Finance Leases,6510,6884,8042,7592
-+ Other LT Liabilities,3089,3415,5024,4726
-+ Accrued Liabilities,768,860,1831,1492
-+ Pension Liabilities,0,0,0,0
-+ Deferred Revenue,0,0,0,0
-+ Deferred Tax Liabilities,0,0,0,0
-+ Derivatives & Hedging,0,0,0,0
-+ Misc LT Liabilities,2321,2556,3193,3234
-Total Noncurrent Liabilities,30727,38798,51751,46474
-Total Liabilities,36215,42453,60818,54786
-+ Preferred Equity and Hybrid Capital,0,0,0,0
-+ Share Capital & APIC,10122,10478,12245,14694
-+ Common Stock,5,5,5,5
-+ Additional Paid in Capital,10118,10474,12240,14689
-- Treasury Stock,1226,1282,1282,1301
-+ Retained Earnings,-1017,-1343,-1142,-2102
-+ Other Equity,-2824,-3759,-4739,-5718
-Equity Before Minority Interest,5055,4094,5081,5572
-+ Minority/Non Controlling Interest,1532,687,3988,6836
-Total Equity,6587,4781,9070,12409
-Total Liabilities & Equity,42802,47234,69888,67195
-Shares Outstanding,443,444,456,466
-Capital Leases - Total,7005,7424,8754,8381
-Net Debt,22554,27541,41304,36642
-Net Debt to Equity,342.41,576.12,455.41,295.30
-Tangible Common Equity Ratio,-49,-63,-70,-51
-Current Ratio,0.47,0.79,0.41,0.44
-Cash Conversion Cycle,0,-1.43,-3.81,-2.12
-Number of Employees,5454,5618,6378,6391
+,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022
+Total Current Assets,953,948,996,1690,2038,2385,2554,2906,3729,3622
+"+ Cash, Cash Equivalents & STI",312,320,321,791,803,1209,1501,1746,1950,2028
++ Cash & Cash Equivalents,294,313,321,787,802,1209,1501,1746,1950,2028
++ ST Investments,19,6,0,4,1,0,0,0,0,0
++ Accounts & Notes Receiv,151,199,227,308,514,459,462,512,729,758
+"+ Accounts Receivable, Net",151,199,227,308,514,459,462,512,729,758
+"+ Notes Receivable, Net",0,0,0,0,0,0,0,0,0,0
+"+ Loans Receivable, Net",0,0,0,0,0,0,0,0,0,0
+"+ Other Receivable, Net",0,0,0,0,0,0,0,0,0,0
++ Inventories,0,0,0,0,0,0,0,0,0,0
++ Raw Materials,0,0,0,0,0,0,0,0,0,0
++ Work In Process,0,0,0,0,0,0,0,0,0,0
++ Finished Goods,0,0,0,0,0,0,0,0,0,0
++ Inventory Adjustments,0,0,0,0,0,0,0,0,0,0
++ Other Inventory,0,0,0,0,0,0,0,0,0,0
++ Other ST Assets,489,429,448,590,721,717,590,648,1051,836
++ Prepaid Expenses,0,0,0,0,0,0,0,0,0,0
++ ST Derivative & Hedging Assets,0,0,0,0,0,0,0,0,0,0
++ ST Assets Held-for-Sale,0,0,0,0,0,0,0,0,0,0
++ ST Deferred Tax Assets,0,0,0,0,0,0,0,0,0,0
++ Misc ST Assets,0,0,0,0,0,0,0,0,0,0
+Total Noncurrent Assets,19320,20384,25908,29189,31176,30625,40248,44328,66159,63572
+"+ Property, Plant & Equip, Net",3595,3558,5336,5383,5252,4777,12201,12734,20390,19038
+"+ Property, Plant & Equip",7262,7627,9866,10517,11101,11247,19442,20598,29009,28917
+- Accumulated Depreciation,3667,4069,4531,5134,5849,6470,7241,7864,8620,9879
++ LT Investments & Receivables,0,0,0,0,0,0,0,0,0,0
++ LT Investments,0,0,0,0,0,0,0,0,0,0
++ LT Receivables,0,0,0,0,0,0,0,0,0,0
++ Other LT Assets,15724,16826,20572,23807,25924,25848,28047,31594,45769,44534
++ Total Intangible Assets,10431,10906,13930,16345,17422,16676,18497,21123,34077,30940
++ Goodwill,3730,4017,4092,5071,5638,5502,6178,7283,13350,12957
++ Other Intangible Assets,6701,6889,9838,11275,11783,11174,12318,13840,20727,17983
++ LT Deferred Tax Assets,0,0,0,0,0,0,0,0,0,0
++ LT Derivative & Hedging Assets,0,0,0,0,0,0,0,0,0,0
++ Misc LT Assets,5293,5919,6643,7461,8502,9172,9551,10471,11692,13594
+Total Assets,20273,21332,26904,30879,33214,33010,42802,47234,69888,67195
++ Payables & Accruals,693,798,939,1147,1469,1631,1771,1935,2582,2569
++ Accounts Payable,171,90,97,119,143,131,148,139,272,219
++ Accrued Taxes,55,61,76,150,195,230,253,240,340,300
++ Interest & Dividends Payable,0,0,0,0,0,0,0,0,0,0
++ Other Payables & Accruals,467,647,766,878,1131,1270,1369,1556,1970,2051
++ ST Debt,70,898,50,239,775,2755,3423,1330,5281,5303
++ ST Borrowings,70,898,50,239,775,2755,2928,790,4569,4514
++ ST Finance Leases,0,0,0,0,0,0,495,540,713,789
++ Other ST Liabilities,162,234,211,245,269,304,294,391,1204,440
++ Deferred Revenue,162,234,211,245,269,304,294,391,1204,440
++ Derivatives & Hedging,0,0,0,0,0,0,0,0,0,0
++ Deferred Tax Liabilities,0,0,0,0,0,0,0,0,0,0
++ Misc ST Liabilities,0,0,0,0,0,0,0,0,0,0
+Total Current Liabilities,925,1930,1200,1631,2512,4690,5488,3656,9067,8312
++ LT Debt,14408,13711,17069,18295,19430,18405,27638,35382,46727,41748
++ LT Borrowings,14408,13711,17069,18295,19430,18405,21127,28498,38686,34156
++ LT Finance Leases,0,0,0,0,0,0,6510,6884,8042,7592
++ Other LT Liabilities,1350,1637,1923,2886,3318,3011,3089,3415,5024,4726
++ Accrued Liabilities,552,719,800,778,898,536,768,860,1831,1492
++ Pension Liabilities,0,0,0,0,0,0,0,0,0,0
++ Deferred Revenue,0,0,0,0,0,0,0,0,0,0
++ Deferred Tax Liabilities,0,0,0,0,0,0,0,0,0,0
++ Derivatives & Hedging,0,0,0,0,0,0,0,0,0,0
++ Misc LT Liabilities,798,918,1122,2108,2420,2475,2321,2556,3193,3234
+Total Noncurrent Liabilities,15758,15349,18991,21180,22748,21416,30727,38798,51751,46474
+Total Liabilities,16683,17278,20191,22812,25260,26106,36215,42453,60818,54786
++ Preferred Equity and Hybrid Capital,0,0,0,0,0,0,0,0,0,0
++ Share Capital & APIC,5135,5793,9695,10048,10252,10385,10122,10478,12245,14694
++ Common Stock,4,4,4,4,4,5,5,5,5,5
++ Additional Paid in Capital,5131,5789,9691,10044,10248,10381,10118,10474,12240,14689
+- Treasury Stock,208,208,208,208,974,1207,1226,1282,1282,1301
++ Retained Earnings,-1081,-837,-999,-1077,-1058,-1199,-1017,-1343,-1142,-2102
++ Other Equity,-311,-794,-1837,-1999,-1978,-2643,-2824,-3759,-4739,-5718
+Equity Before Minority Interest,3534,3954,6652,6764,6242,5336,5055,4094,5081,5572
++ Minority/Non Controlling Interest,56,100,61,1304,1713,1568,1532,687,3988,6836
+Total Equity,3590,4053,6713,8067,7954,6904,6587,4781,9070,12409
+Total Liabilities & Equity,20273,21332,26904,30879,33214,33010,42802,47234,69888,67195
+Shares Outstanding,395,397,424,427,429,441,443,444,456,466
+Capital Leases - Total,0,0,0,0,0,0,7005,7424,8754,8381
+Net Debt,14185,14295,16798,17746,19403,19951,22554,27541,41304,36642
+Net Debt to Equity,395.11,352.68,250.24,219.97,243.93,288.96,342.41,576.12,455.41,295.30
+Tangible Common Equity Ratio,-70,-66,-56,-57,-60,-60,-49,-63,-70,-51
+Current Ratio,1.03,0.49,0.83,1.04,0.81,0.51,0.47,0.79,0.41,0.44
+Cash Conversion Cycle,-39.78,-28.10,-9.83,-5.09,-0.73,0.92,-0.78,-1.43,-3.81,-2.12
+Number of Employees,2716,2974,3371,4507,4752,5026,5454,5618,6378,6391

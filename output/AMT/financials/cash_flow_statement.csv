@@ -1,54 +1,54 @@
-,2019,2020,2021,2022
-+ Net Income,1917,1692,2568,1697
-+ Depreciation & Amortization,1796,1871,2333,3355
-+ Non-Cash Items,291,742,-215,254
-+ Stock-Based Compensation,111,121,120,169
-+ Deferred Income Taxes,-55,-22,-41,-237
-+ Asset Impairment Charge,140,240,196,684
-+ Other Non-Cash Adj,94,404,-490,-363
-+ Chg in Non-Cash Work Cap,-250,-424,135,-1610
-+ (Inc) Dec in Accts Receiv,13,-175,-192,-79
-+ (Inc) Dec in Inventories,0,0,0,0
-+ (Inc) Dec in Prepaid Assets,-68,84,-33,-196
-+ Inc (Dec) in Accts Payable,-14,-71,76,-42
-+ Inc (Dec) in Other,-181,-261,284,-1294
-+ Net Cash From Disc Ops,0,0,0,0
-Cash from Operating Activities,3753,3881,4820,3696
-+ Change in Fixed & Intang,0,0,0,0
-+ Disp in Fixed & Intang,0,0,0,0
-+ Disp of Fixed Prod Assets,0,0,0,0
-+ Disp of Intangible Assets,0,0,0,0
-+ Acq of Fixed & Intang,-991,-1032,-1377,-1874
-+ Acq of Fixed Prod Assets,-991,-1032,-1377,-1874
-+ Acq of Intangible Assets,0,0,0,0
-+ Net Change in LT Investment,28,20,-11,20
-+ Dec in LT Investment,384,20,14,20
-+ Inc in LT Investment,-356,0,-25,0
-+ Net Cash From Acq & Div,-2960,-3799,-19304,-549
-+ Cash from Divestitures,0,0,0,0
-+ Cash for Acq of Subs,-2960,-3799,-19304,-549
-+ Cash for JVs,0,0,0,0
-+ Other Investing Activities,-64,27,-1,48
-+ Net Cash From Disc Ops,0,0,0,0
-Cash from Investing Activities,-3987,-4785,-20692,-2355
-+ Dividends Paid,-1603,-1928,-2271,-2630
-+ Net Cash From Debt,2680,4152,13713,-4113
-+ Cash From Debt,11927,18096,26966,5512
-+ Repayments of Debt,-9246,-13944,-13252,-9625
-+ Cash (Repurchase) of Equity,-20,-56,2362,2273
-+ Increase in Capital Stock,0,0,2362,2292
-+ Decrease in Capital Stock,-20,-56,0,-19
-+ Other Financing Activities,-536,-952,2620,3047
-+ Net Cash From Disc Ops,0,0,0,0
-Cash from Financing Activities,522,1215,16425,-1423
-Effect of Foreign Exchange Rates,-14,-29,-70,-120
-Net Changes in Cash,287,312,552,-82
-EBITDA,4484,4759,5465,5707
-EBITDA Margin (%),59.16,59.18,58.40,53.28
-Net Cash Paid for Acquisitions,2960,3799,19304,549
-Free Cash Flow,2761,2850,3443,1823
-Free Cash Flow to Firm,0,3587,4234,2943
-Free Cash Flow to Equity,0,7002,17157,-2290
-Free Cash Flow per Basic Share,6.24,6.42,7.63,3.95
-Price/Free Cash Flow,21.58,0,0,17.60
-Cash Flow to Net Income,1.99,2.30,1.88,2.09
+,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022
++ Net Income,482,803,672,970,1225,1265,1917,1692,2568,1697
++ Depreciation & Amortization,800,1004,1285,1526,1716,2111,1796,1871,2333,3355
++ Non-Cash Items,335,170,361,311,337,387,291,742,-215,254
++ Stock-Based Compensation,68,80,91,90,109,138,111,121,120,169
++ Deferred Income Taxes,-29,1,8,27,-87,-303,-55,-22,-41,-237
++ Asset Impairment Charge,33,26,30,51,242,480,140,240,196,684
++ Other Non-Cash Adj,264,63,233,144,72,73,94,404,-490,-363
++ Chg in Non-Cash Work Cap,-18,157,-135,-104,-352,-14,-250,-424,135,-1610
++ (Inc) Dec in Accts Receiv,-19,-85,-56,11,-191,-32,13,-175,-192,-79
++ (Inc) Dec in Inventories,0,0,0,0,0,0,0,0,0,0
++ (Inc) Dec in Prepaid Assets,-96,-1,-91,-83,-180,-102,-68,84,-33,-196
++ Inc (Dec) in Accts Payable,135,80,80,-8,105,78,-14,-71,76,-42
++ Inc (Dec) in Other,-38,163,-68,-23,-86,42,-181,-261,284,-1294
++ Net Cash From Disc Ops,0,0,0,0,0,0,0,0,0,0
+Cash from Operating Activities,1599,2135,2183,2704,2926,3748,3753,3881,4820,3696
++ Change in Fixed & Intang,0,0,0,0,0,0,0,0,0,0
++ Disp in Fixed & Intang,0,0,0,0,0,0,0,0,0,0
++ Disp of Fixed Prod Assets,0,0,0,0,0,0,0,0,0,0
++ Disp of Intangible Assets,0,0,0,0,0,0,0,0,0,0
++ Acq of Fixed & Intang,-725,-974,-729,-683,-804,-913,-991,-1032,-1377,-1874
++ Acq of Fixed Prod Assets,-725,-974,-729,-683,-804,-913,-991,-1032,-1377,-1874
++ Acq of Intangible Assets,0,0,0,0,0,0,0,0,0,0
++ Net Change in LT Investment,-6,40,10,12,15,98,28,20,-11,20
++ Dec in LT Investment,422,1435,1032,13,15,1252,384,20,14,20
++ Inc in LT Investment,-427,-1395,-1023,-1,0,-1154,-356,0,-25,0
++ Net Cash From Acq & Div,-4462,-1011,-1961,-1416,-2007,-1881,-2960,-3799,-19304,-549
++ Cash from Divestitures,0,0,0,0,0,0,0,0,0,0
++ Cash for Acq of Subs,-4462,-1011,-1961,-1416,-2007,-1881,-2960,-3799,-19304,-549
++ Cash for JVs,0,0,0,0,0,0,0,0,0,0
++ Other Investing Activities,19,-4,-5061,-21,-5,-53,-64,27,-1,48
++ Net Cash From Disc Ops,0,0,0,0,0,0,0,0,0,0
+Cash from Investing Activities,-5173,-1950,-7742,-2107,-2801,-2749,-3987,-4785,-20692,-2355
++ Dividends Paid,-435,-421,-795,-993,-1164,-1342,-1603,-1928,-2271,-2630
++ Net Cash From Debt,2265,-210,1694,589,1474,460,2680,4152,13713,-4113
++ Cash From Debt,7631,3705,8173,5683,8033,5348,11927,18096,26966,5512
++ Repayments of Debt,-5367,-3915,-6479,-5094,-6560,-4888,-9246,-13944,-13252,-9625
++ Cash (Repurchase) of Equity,-145,0,2440,0,-766,-233,-20,-56,2362,2273
++ Increase in Capital Stock,0,0,2440,0,0,0,0,0,2362,2292
++ Decrease in Capital Stock,-145,0,0,0,-766,-233,-20,-56,0,-19
++ Other Financing Activities,1840,496,2250,305,344,507,-536,-952,2620,3047
++ Net Cash From Disc Ops,0,0,0,0,0,0,0,0,0,0
+Cash from Financing Activities,3526,-135,5589,-99,-113,-608,522,1215,16425,-1423
+Effect of Foreign Exchange Rates,-26,-31,-23,-30,7,-41,-14,-29,-70,-120
+Net Changes in Cash,-49,50,30,497,12,391,287,312,552,-82
+EBITDA,2014,2491,2898,3379,3714,4016,4484,4759,5465,5707
+EBITDA Margin (%),59.93,60.75,60.74,58.40,55.74,53.98,59.16,59.18,58.40,53.28
+Net Cash Paid for Acquisitions,4462,1011,1961,1416,2007,1881,2960,3799,19304,549
+Free Cash Flow,875,1160,1454,2021,2122,2835,2761,2850,3443,1823
+Free Cash Flow to Firm,1263,1689,1928,2640,2854,0,0,3587,4234,2943
+Free Cash Flow to Equity,3139,927,3059,2503,3508,3286,5442,7002,17157,-2290
+Free Cash Flow per Basic Share,2.21,2.93,3.47,4.75,4.96,6.45,6.24,6.42,7.63,3.95
+Price/Free Cash Flow,13.71,12.72,14.08,13.40,16.52,15.03,21.58,20.38,21.40,17.60
+Cash Flow to Net Income,2.90,2.59,3.19,2.83,2.36,3.03,1.99,2.30,1.88,2.09
